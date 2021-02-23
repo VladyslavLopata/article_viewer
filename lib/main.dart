@@ -6,14 +6,14 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final router = RouteManager();
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Test App',
       theme: ThemeData(),
-      onGenerateRoute: router.onGenerateRoute,
-      initialRoute: router.initialRoute,
+      navigatorKey: RouteManager.instance.navigationKey,
+      onGenerateRoute: RouteManager.instance.onGenerateRoute,
+      initialRoute: RouteManager.instance.initialRoute,
     );
   }
 }

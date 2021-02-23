@@ -4,7 +4,7 @@ class Article extends Equatable {
   final String header;
   final String content;
 
-  Article({
+  const Article({
     this.header,
     this.content,
   });

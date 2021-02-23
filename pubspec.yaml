@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  bloc: ^6.1.1
+  flutter_bloc: ^6.1.2
   equatable: ^1.2.6
 
 dev_dependencies:
