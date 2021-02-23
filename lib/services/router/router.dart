@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_task/article/pages/article_page.dart';
-import 'package:test_task/home/pages/home_page.dart';
-import 'package:test_task/widgets/app_scaffold.dart';
+import 'package:article_viewer/article/pages/article_page.dart';
+import 'package:article_viewer/home/pages/home_page.dart';
+import 'package:article_viewer/widgets/app_scaffold.dart';
 
 class RouteManager {
   RouteManager._privateConstructor();

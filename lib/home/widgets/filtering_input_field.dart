@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_task/home/bloc/home_bloc.dart';
+import 'package:article_viewer/home/bloc/home_bloc.dart';
 
 class FilteringInputField extends StatelessWidget {
   @override

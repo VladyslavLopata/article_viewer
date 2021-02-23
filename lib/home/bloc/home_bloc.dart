@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:test_task/home/data/article_repository.dart';
-import 'package:test_task/home/models/article.dart';
-import 'package:test_task/services/router/router.dart';
-import 'package:test_task/services/search/search.dart';
+import 'package:article_viewer/home/data/article_repository.dart';
+import 'package:article_viewer/home/models/article.dart';
+import 'package:article_viewer/services/router/router.dart';
+import 'package:article_viewer/services/search/search.dart';
 
 part 'home_event.dart';
 part 'home_state.dart';

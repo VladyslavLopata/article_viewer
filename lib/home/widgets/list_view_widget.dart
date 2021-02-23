@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_task/home/bloc/home_bloc.dart';
-import 'package:test_task/home/models/article.dart';
-import 'package:test_task/home/widgets/expansion_block.dart';
+import 'package:article_viewer/home/bloc/home_bloc.dart';
+import 'package:article_viewer/home/models/article.dart';
+import 'package:article_viewer/home/widgets/expansion_block.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ListViewWidget extends StatelessWidget {

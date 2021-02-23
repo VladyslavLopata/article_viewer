@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_task/home/bloc/home_bloc.dart';
-import 'package:test_task/home/widgets/filtering_input_field.dart';
-import 'package:test_task/home/widgets/list_view_widget.dart';
+import 'package:article_viewer/home/bloc/home_bloc.dart';
+import 'package:article_viewer/home/widgets/filtering_input_field.dart';
+import 'package:article_viewer/home/widgets/list_view_widget.dart';
 
 class HomeView extends StatelessWidget {
   @override

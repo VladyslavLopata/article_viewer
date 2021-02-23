@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_task/home/models/article.dart';
+import 'package:article_viewer/home/models/article.dart';
 
 class ArticlePage extends StatelessWidget {
   @override

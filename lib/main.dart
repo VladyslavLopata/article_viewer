@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_task/services/router/router.dart';
+import 'package:article_viewer/services/router/router.dart';
 
 void main() {
   runApp(MyApp());
